@@ -1,0 +1,71 @@
+gnome-photos (3.16.0-0blankon1) tambora; urgency=medium
+
+  * New upstream release
+  * Import from PPA GNOME3-TEAM
+
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 31 May 2015 21:47:27 +0700
+
+gnome-photos (3.16.0-0ubuntu1~vivid1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Tim Lunn <tim@feathertop.org>  Mon, 30 Mar 2015 10:46:04 +1100
+
+gnome-photos (3.15.91-0ubuntu1~vivid2) vivid; urgency=medium
+
+  * New upstream release
+  * Bump build-deps on cairo, gegl and gtk+
+
+ -- Tim Lunn <tim@feathertop.org>  Mon, 09 Mar 2015 15:51:12 +1100
+
+gnome-photos (3.15.4-0ubuntu1~vivid1) vivid; urgency=medium
+
+  * New upstream release
+  * Build-depend on gtk >= 3.15.0
+
+ -- Jackson Doak <noskcaj@ubuntu.com>  Sun, 01 Feb 2015 08:10:12 +1100
+
+gnome-photos (3.15.3-0ubuntu1~vivid1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jackson Doak <noskcaj@ubuntu.com>  Tue, 06 Jan 2015 13:14:24 +1100
+
+gnome-photos (3.14.2-1) unstable; urgency=medium
+
+  [ Laurent Bigonville ]
+  * debian/control.in: Only Recommends dleyna-renderer on linux architectures
+
+  [ Josselin Mouette ]
+  * New upstream translation and bugfix release.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 05 Dec 2014 18:29:34 +0100
+
+gnome-photos (3.14.0-1) unstable; urgency=medium
+
+  [ Jackson Doak ]
+  * New upstream release
+  * debian/rules: 
+    - Disable silent rules so we can find hardening issues
+    - Fully enable hardening
+  * Add 90_drop-onlyshowin.patch so every desktop can use this
+  * debian/control:
+    - Bump b-dep on gtk to >= 3.13.2, glib to >= 2.39.3
+    - Build-depend on libgdata-dev
+  * Run tests as autopkgtest
+
+  [ Andreas Henriksson ]
+  * Recommend dleyna-renderer to be able to display photos on other
+    DLNA renderers in your local network.
+
+  [ Laurent Bigonville ]
+  * debian/control.in: Add gnome-online-miners to the dependencies and bump
+    tracker to a hard dependency.
+
+ -- Laurent Bigonville <bigon@debian.org>  Sat, 27 Sep 2014 14:09:54 +0200
+
+gnome-photos (3.12.1-1) unstable; urgency=medium
+
+  * Initial packaging.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 15 Jul 2014 16:57:46 +0200

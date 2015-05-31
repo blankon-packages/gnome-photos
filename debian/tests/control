@@ -1,0 +1,3 @@
+Tests: unit-tests
+Depends: @, @builddeps@, dbus-x11, xvfb, grilo-plugins-0.2, xauth
+Restrictions: build-needed

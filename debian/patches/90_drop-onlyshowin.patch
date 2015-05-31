@@ -1,0 +1,15 @@
+Description: Show GNOME Photos in menus everywhere
+Author: Jeremy Bicha <jbicha@ubuntu.com>
+---
+ data/org.gnome.Photos.desktop.in.in |    1 -
+ 1 file changed, 1 deletion(-)
+
+--- a/data/org.gnome.Photos.desktop.in.in
++++ b/data/org.gnome.Photos.desktop.in.in
+@@ -7,6 +7,5 @@ DBusActivatable=true
+ StartupNotify=true
+ Terminal=false
+ Type=Application
+-OnlyShowIn=GNOME;
+ Categories=GNOME;GTK;Utility;Core;
+ _Keywords=Photos;Pictures;
